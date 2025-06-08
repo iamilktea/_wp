@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>MYGO!!!商店</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      background: white;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      color: #333;
+    }
+    .buy-btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+    }
+    form input, form textarea {
+      padding: 10px;
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MYGO!!!商店</h1>
+  <p>歡迎來我們的商店MYGO！</p>
+</header>
+
+<section class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/200x150" alt="商品1">
+    <h3>千早愛音</h3>
+    <p>NT$ Free</p>
+    <button class="buy-btn">手刀購買</button>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/200x150" alt="商品2">
+    <h3>豐川祥子</h3>
+    <p>NT$168億</p>
+    <button class="buy-btn">現在馬上</button>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/200x150" alt="商品3">
+    <h3>燈燈燈</h3>
+    <p>NT$ 一輩子</p>
+    <button class="buy-btn">加入購物車</button>
+  </div>
+</section>
+
+<section>
+  <h2>About US</h2>
+  <p>我們是一家專注於提供高品質生活商品的小型網路商店。</p>
+</section>
+
+<section>
+  <h2>聯絡我們</h2>
+  <form>
+    <input type="text" placeholder="您的姓名" required>
+    <input type="email" placeholder="電子郵件" required>
+    <textarea placeholder="您的想法" rows="5" required></textarea>
+    <button class="buy-btn" type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 MYGO商店. 沒有保留所有權利.</p>
+</footer>
+
+</body>
+</html>
