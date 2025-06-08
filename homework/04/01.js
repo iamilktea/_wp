@@ -7,3 +7,4 @@ function countLetters(str)
   }
   return map;
 }
+console.log(countLetters("banana"));
